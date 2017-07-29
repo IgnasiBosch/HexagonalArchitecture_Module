@@ -1,0 +1,27 @@
+{
+  "name": "techtalks/isolatedmodule",
+  "type": "project",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.4.27",
+    "vlucas/valitron": "1.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hexagonal\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hexagonal\\Tests\\": "tests/"
+    }
+  }
+}
